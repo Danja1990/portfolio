@@ -1,0 +1,69 @@
+/***** MAIN STYLES *****/
+
+html {
+  background-color: #e5eef6;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  font-size: 5em;;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #d0dae2;
+    border: 4px;
+    border-color: #d0dae2;
+    color: black;
+    border-radius: 2%;
+}
+
+#header-img {
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
+#social-media {
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/*************** MOBILE *******************/
+
+
+/************* DESKTOP *****************/
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    li {
+        display: inline;
+    }
+
+}
