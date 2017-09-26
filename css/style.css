@@ -1,7 +1,11 @@
 /***** MAIN STYLES *****/
 
 html {
-  background-color: #e5eef6;
+  background-color: #e4e4e4;
+}
+
+html body {
+  height: 100%;
 }
 
 .header {
@@ -42,7 +46,7 @@ li a:hover {
   width: 100%;
 }
 
-.container {
+.main-container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 1rem;
@@ -52,7 +56,7 @@ li a:hover {
   max-width: 100%;
 }
 
-.cell img {
+.cell-right img {
   display: block;
 }
 
@@ -83,15 +87,25 @@ footer {
 
 @media only screen and (min-width: 600px) {
     /* For TABLET: */
-    .grid {
+    .main-grid {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
     }
 
-    .cell {
+    .cell-right {
       width: 50%;
     }
+
+    /*.cell-left {
+      width: 50%;
+    }*/
+
+    .main-cell {
+      width: 50%;
+    }
+
+
 
 }
 
@@ -107,5 +121,5 @@ footer {
     /*.cell {
       width: calc(100% / 3);
     }*/
-  
+
 }
