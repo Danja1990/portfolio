@@ -86,7 +86,15 @@ footer {
 
 @media only screen and (min-width: 600px) {
     /* For TABLET: */
-    
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+
+    .cell {
+      width: 50%;
+    }
 
 }
 
