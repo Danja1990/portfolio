@@ -42,6 +42,20 @@ li a:hover {
   width: 100%;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
 footer {
   position: fixed;
    left:0px;
@@ -65,5 +79,21 @@ footer {
     li {
         display: inline;
     }
+
+}
+
+/*********** TABLET **********************/
+
+@media only screen and (min-width: 600px) {
+    /* For TABLET: */
+    
+
+}
+
+/***************** MOBILE *********************/
+
+@media only screen and (min-width: 768px) {
+    /* For MOBILE: */
+
 
 }
