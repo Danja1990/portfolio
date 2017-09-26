@@ -70,17 +70,14 @@ footer {
 }
 
 
-/*************** MOBILE *******************/
+/***************** MOBILE *********************/
 
-
-/************* DESKTOP *****************/
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    li {
-        display: inline;
-    }
+    /* For MOBILE: */
+
 
 }
+
 
 /*********** TABLET **********************/
 
@@ -98,10 +95,17 @@ footer {
 
 }
 
-/***************** MOBILE *********************/
+/************* DESKTOP *****************/
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    li {
+        display: inline;
+    }
 
-@media only screen and (min-width: 768px) {
-    /* For MOBILE: */
+    /****keep for when I have enough img to have three in a row***/
 
-
+    /*.cell {
+      width: calc(100% / 3);
+    }*/
+  
 }
