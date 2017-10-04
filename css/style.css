@@ -10,10 +10,10 @@ html body {
 
 .header {
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Londrina Sketch', cursive;
   font-weight: bolder;
-  font-size: 5em;
-  padding-top: 2px;
+  font-size: 6em;
+  padding-top: 0.5em;;
 }
 
 ul {
@@ -45,8 +45,38 @@ li a:hover {
 
 #header-img {
   width: 100%;
+  height: inherit;
 }
 
+.border {
+  border-top: dotted;
+}
+
+.portfolio-title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.description {
+  font-family: 'Dosis', sans-serif;
+}
+
+button {
+  margin: 0 0 15em 45em;
+}
+
+.contact-button {
+  text-align: center;
+  border: solid 1px #AFEEEE;
+  padding: 1em 1em 2em 1em;
+}
 
 
 footer {
@@ -99,7 +129,7 @@ footer {
       }
 
       .first {
-        padding: 10em;
+        padding: 5em 1em 20em 1em;
         width: 70em;
         height: 30em;
         /*background-color: blue;*/
@@ -112,13 +142,29 @@ footer {
         /*background-color: white;*/
       }
 
-      .description-title {
+      .portfolio-title {
         text-align: center;
+        padding-bottom: 1.5em;
+      }
+
+      .about-title {
+        text-align: center;
+        padding: 1em 0 1.5em 0;
+
       }
 
       .description {
-        text-align: right;
         padding-right: 3em;
+        font-size: 1.5em;
+      }
+
+      .portfolio {
+        text-align: right;
+      }
+
+      .about {
+        text-align: left;
+        padding-left: 3em;
       }
 
       .third {
