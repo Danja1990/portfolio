@@ -124,63 +124,96 @@ li a:hover {
   padding-bottom: 2em;
 }
 
+.button-container {
+  background-color: #a9cce3;
+  padding: 0 0 5em 0;
+}
 
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
     text-decoration: none;
-    color: initial;
+    color: white;
     text-align: center;
+    background-color: grey;
+    font-size: 1.5em;
 }
 
 .contact-button {
   border: solid 1px #AFEEEE;
-  padding: 1em 1em 2em 1em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 10px;
 }
 
 .link {
   text-decoration: none;
-  text-align: center;
+  display: block;
+  margin: auto;
+  width: 25em;
+  height: 2em;
 }
 
 
 footer {
-  position: fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:50px;
    width:100%;
+   background-color: #e4e4e4;
 }
 
 #social-media {
-  font-size: 14px;
+  font-size: 1.5em;
   text-align: center;
+  margin: 0;
+  padding: .5em;
 }
 
-
-/***************** MOBILE *********************/
-
-@media only screen and (min-width: 768px) {
-    /* For MOBILE: */
-
-
-
-
-}
 
 
 /*********** TABLET **********************/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 670px) {
     /* For TABLET: */
 
+.header {
+  font-size: 6em;
+}
+
+.sub-header {
+  font-size: 2.5em;
+}
+
+.about-title {
+  font-size: 3em;
+}
+
+.portfolio-title {
+  font-size: 3em;
+}
+
+
+.description {
+  padding: 1em 3.5em 1em 3.5em;
+  font-size: 1.5em;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.second {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
 
 }
 
+
 /************* DESKTOP *****************/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1096px) {
     /* For desktop: */
     .header {
       font-size: 6em;
@@ -226,12 +259,13 @@ footer {
 
       .description {
         padding-right: 3em;
-        font-size: 1.5em;
+        font-size: 1.4em;
       }
 
       .portfolio {
         text-align: right;
         padding-top: 0;
+
       }
 
       .about {
