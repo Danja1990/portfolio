@@ -57,8 +57,9 @@
         <nav class="menu">
           <ul>
             <li><a href="index.html">home</a></li>
-            <li><a href="contact.html">contact me</a></li>
-            <li><a href="test.html">Test Me</a></li>
+            <li><a href="#portfolio-grid">Portfolio</a></li>
+            <li><a href="#about-me-grid">About</a></li>
+            <li><a href="#contact-form-grid">contact me</a></li>
           </ul>
         </nav>
       </div>
@@ -69,7 +70,7 @@
 
 <!-- PORTFOLIO GRID -->
 
-  <div class="row">
+  <div class="row" id="portfolio-grid">
       <div class="col-xs">
           <div class="box first">
             <h1 class="portfolio-title">
@@ -122,7 +123,7 @@
 <div class="border"></div>
   <!-- ABOUT ME GRID  -->
 
-  <div class="row color-change">
+  <div class="row color-change" id="about-me-grid">
       <div class="col-xs">
           <div class="box first">
             <h1 class="about-title">
@@ -146,9 +147,38 @@
       </div>
   </div>
 
-  <!-- CONTACT BUTTON -->
-<div class="button-container">
-  <a href="contact.html" class="link button">Let's work together! Click here.</a>
+  <!-- CONTACT FORM -->
+
+  <div class="container contact-form-container" id="contact-form-grid">
+    <div class="row">
+      <h1 id="contact-form-title">Contact Me</h1>
+    </div>
+    <form>
+    <div class="row">
+      <div class="six columns">
+        <label for="exampleEmailInput">Your email</label>
+        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      </div>
+      <div class="six columns">
+        <label for="exampleRecipientInput">Reason for contacting</label>
+        <select class="u-full-width" id="exampleRecipientInput">
+          <option value="Option 1">Questions</option>
+          <option value="Option 2">Web Development</option>
+          <option value="Option 3">Web Design</option>
+          <option value="Option 4">Re-vamp a pre-existing website</option>
+          <option value="Option 5">Create a website from scratch</option>
+          <option value="Option 6">Other</option>
+        </select>
+      </div>
+    </div>
+    <label for="exampleMessage">Message</label>
+    <textarea class="u-full-width" placeholder="Hi Danja …" id="exampleMessage"></textarea>
+    <label class="example-send-yourself-copy">
+      <input type="checkbox">
+      <span class="label-body">Send a copy to yourself</span>
+    </label>
+    <input class="button-primary" type="submit" value="Submit">
+  </form>
 </div>
 
 

@@ -124,36 +124,13 @@ li a:hover {
   padding-bottom: 2em;
 }
 
-.button-container {
-  background-color: #a9cce3;
-  padding: 0 0 5em 0;
+#contact-form-title {
+  padding: 1.5em 0 1em 0;
 }
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    background-color: grey;
-    font-size: 1.5em;
+.contact-form-container {
+  padding: 0 0 3em 0;
 }
-
-.contact-button {
-  border: solid 1px #AFEEEE;
-  padding: 1em 1em 1em 1em;
-  border-radius: 10px;
-}
-
-.link {
-  text-decoration: none;
-  display: block;
-  margin: auto;
-  width: 25em;
-  height: 2em;
-}
-
 
 footer {
    left:0px;
