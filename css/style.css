@@ -29,8 +29,7 @@ html {
     overflow: hidden;
   }
 
-
-.sub-row {
+  .sub-row {
   text-align: left;;
 }
 
@@ -58,7 +57,7 @@ li a:hover {
     border: 4px;
     border-color: #d0dae2;
     color: black;
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
 #header-img {
@@ -66,13 +65,8 @@ li a:hover {
   height: inherit;
 }
 
-/*.border {
-  border-top: dotted;
-}*/
-
 .color-change {
   background-color: #a9cce3;
-
 }
 
 .portfolio-title {
@@ -87,7 +81,6 @@ li a:hover {
 .portfolio {
   text-align: center;
 }
-
 
 .about-title {
   font-family: 'Dosis', sans-serif;
@@ -127,10 +120,12 @@ li a:hover {
 #contact-form-title {
   padding: 1.5em 0 1em 0;
 }
-
+/***WHAT DOES THIS DO***/
 .contact-form-container {
-  padding: 0 0 3em 0;
+  padding: 0 .75em 3em .75em;
 }
+
+/****ABOVE***/
 
 footer {
    left:0px;
@@ -148,43 +143,162 @@ footer {
 }
 
 
+/*.border {
+  border-top: dotted;
+}*/
+
+/************* TABLET *****************/
+@media only screen and (min-width: 425px) {
+    /* For TABLET: */
+
+    .row {
+      flex-direction: row;
+    }
+
+    .third {
+      flex-direction: row;
+      width: 11em;
+      height: 11em;
+    }
+
+    .img-grid {
+      width: 100%;
+    }
+
+}
+
+/************* TABLET *****************/
+@media only screen and (min-width: 464px) {
+    /* For TABLET: */
+
+    .row {
+      flex-direction: row;
+    }
+
+    .third {
+      flex-direction: row;
+      width: 13em;
+      height: 13em;
+    }
+
+    .img-grid {
+      width: 100%;
+    }
+
+}
+
+/************* TABLET *****************/
+@media only screen and (min-width: 550px) {
+    /* For TABLET: */
+
+    .row {
+      flex-direction: row;
+    }
+
+    .third {
+      flex-direction: row;
+      width: 14em;
+      height: 14em;
+    }
+
+    .img-grid {
+      width: 100%;
+    }
+
+}
+
+/************* TABLET *****************/
+@media only screen and (min-width: 600px) {
+    /* For TABLET: */
+
+    .row {
+      flex-direction: row;
+    }
+
+    .third {
+      flex-direction: row;
+      width: 15em;
+      height: 15em;
+    }
+
+    .img-grid {
+      width: 100%;
+    }
+
+}
 
 /*********** TABLET **********************/
 
 @media only screen and (min-width: 670px) {
     /* For TABLET: */
 
-.header {
-  font-size: 6em;
+  .header {
+    font-size: 6em;
+  }
+
+  .sub-header {
+    font-size: 2.5em;
+  }
+
+  .about-title {
+    font-size: 3em;
+  }
+
+  .portfolio-title {
+    font-size: 3em;
+  }
+
+  .description {
+    padding: 1em 3.5em 1em 3.5em;
+    font-size: 1.5em;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .third {
+    flex-direction: row;
+    width: 18em;
+    height: 18em;
+  }
+
+  .img-grid {
+    width: 100%;
+  }
+
 }
 
-.sub-header {
-  font-size: 2.5em;
-}
-
-.about-title {
-  font-size: 3em;
-}
-
-.portfolio-title {
-  font-size: 3em;
-}
+/************* TABLET *****************/
+@media only screen and (min-width: 779px) {
+    /* For TABLET: */
 
 
-.description {
-  padding: 1em 3.5em 1em 3.5em;
-  font-size: 1.5em;
+    .third {
+      flex-direction: row;
+      width: 23em;
+      height: 23em;
+    }
+
+    .img-grid {
+      width: 100%;
+    }
+
 }
 
-.row {
-  flex-direction: row;
-}
+@media only screen and (min-width: 1004px) {
+    /* For DESKTOP: */
 
-.second {
-  display: block;
-  margin: auto;
-  width: 90%;
-}
+
+    .third {
+      flex-direction: row;
+      width: 25em;
+      height: 25em;
+    }
+
+    .img-grid {
+      width: 100%;
+    }
 
 }
 
@@ -192,6 +306,7 @@ footer {
 /************* DESKTOP *****************/
 @media only screen and (min-width: 1096px) {
     /* For desktop: */
+
     .header {
       font-size: 6em;
       padding-top: 0.5em;
@@ -204,67 +319,69 @@ footer {
     }
 
     li {
-        display: inline;
+      display: inline;
     }
 
     .row {
-        flex-direction: row;
-      }
+      flex-direction: row;
+    }
 
-      .first {
-        padding: 5em 1em 20em 1em;
-        width: 70em;
-        height: 30em;
+    .first {
+      padding: 5em 1em 20em 1em;
+      width: 70em;
+      height: 30em;
         /*background-color: blue;*/
-        overflow: hidden;
-      }
+      overflow: hidden;
+    }
 
-      .second {
-        width: 35em;
-        height: 30em;
+    .second {
+      width: 35em;
+      height: 30em;
         /*background-color: white;*/
-      }
+    }
 
-      .portfolio-title {
-        padding: 0 0 1.5em 0;
-        font-size: 3em;
-      }
+    .portfolio-title {
+      padding: 0 0 1.5em 0;
+      font-size: 3em;
+    }
 
-      .about-title {
-        padding: 1em 0 1.5em 0;
-      }
+    .about-title {
+      padding: 1em 0 1.5em 0;
+    }
 
-      .description {
-        padding-right: 3em;
-        font-size: 1.4em;
-      }
+    .description {
+      padding-right: 3em;
+      font-size: 1.4em;
+    }
 
-      .portfolio {
-        text-align: right;
-        padding-top: 0;
+    .portfolio {
+      text-align: right;
+      padding-top: 0;
+    }
 
-      }
+    .about {
+      text-align: left;
+      padding-left: 3em;
+    }
 
-      .about {
-        text-align: left;
-        padding-left: 3em;
-      }
+    .third {
+      height: 15em;
+      width: 15em;
+    }
 
-      .third {
-        height: 15em;
-        width: 17.5em;
-      }
+    /*.img-grid {
+      padding: 0;
+      width: 100%;
+      height:100%;
+    }
 
-      .img-grid {
-        padding: 0;
-        width: 100%;
-        height:100%;
-      }
+    .danja {
+      height: inherit;
+      width: inherit;
+    }*/
 
-      .danja {
-        height: inherit;
-        width: inherit;
-      }
+
+
 
 
     /****keep for when I have enough img to have three in a row***/
