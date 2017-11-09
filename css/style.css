@@ -149,10 +149,6 @@ footer {
 }
 
 
-/*.border {
-  border-top: dotted;
-}*/
-
 /************* TABLET *****************/
 @media only screen and (min-width: 425px) {
     /* For TABLET: */
@@ -308,7 +304,7 @@ footer {
     }
 
     .about-title {
-      padding: 1em 0 1.5em 0;
+      padding: .4em 0 1.5em 0;
     }
 
     .description {
