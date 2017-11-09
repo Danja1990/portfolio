@@ -25,6 +25,10 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- SCRIPTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="wufoo/scripts/wufoo.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
@@ -152,32 +156,74 @@
     <div class="row">
       <h1 id="contact-form-title">Contact Me</h1>
     </div>
-    <form action="mail.php" method="POST">
-    <div class="row">
-      <div class="six columns">
-        <label for="exampleEmailInput">Your email</label>
-        <input class="u-full-width" type="email" placeholder="your-email@mailbox.com" id="exampleEmailInput">
+
+
+    <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+          action="https://danja.wufoo.com/forms/z1gt9al513msxle/#public">
+      <div class="row">
+        <div class="three columns">
+          <label class="desc" id="title6" for="Field6">
+          Name
+            <span id="req_6" class="req">*</span>
+          </label>
+          <span>
+            <input id="Field6" name="Field6" type="text" class="u-full-width" value="" size="8" tabindex="1" placeholder="First"       required />
+          </span>
+          <span>
+            <input id="Field7" name="Field7" type="text" class="u-full-width" value="" size="14" tabindex="2" placeholder="Last Name" required />
+          </span>
+        </div>
+        <div class="six columns">
+          <label for="Field1">
+            Email
+            <span id="req_1" class="req">*</span>
+          </label>
+          <input id="Field1" name="Field1" type="email" spellcheck="false" class="u-full-width" value="" maxlength="255" tabindex="3"       placeholder="your-email@mailbox.com" required />
+        </div>
+        <div class="six columns">
+          <label for="Field5">
+          Subject
+            <span id="req_5" class="req">*</span>
+          </label>
+          <input id="Field5" name="Field5" type="text" class="u-full-width" value="" maxlength="255" tabindex="4" onkeyup=""  required placeholder="Subject" />
+        </div>
       </div>
-      <div class="six columns">
-        <label for="exampleRecipientInput">Reason for contacting</label>
-        <select class="u-full-width" id="exampleRecipientInput">
-          <option value="Option 1">Questions</option>
-          <option value="Option 2">Web Development</option>
-          <option value="Option 3">Web Design</option>
-          <option value="Option 4">Re-vamp a pre-existing website</option>
-          <option value="Option 5">Create a website from scratch</option>
-          <option value="Option 6">Other</option>
-        </select>
+      <label class="desc" id="title4" for="Field4">
+        Message
+        <span id="req_4" class="req">*</span>
+      </label>
+      <div>
+        <textarea id="Field4"
+          name="Field4"
+          class="field textarea medium u-full-width"
+          spellcheck="true"
+          rows="10" cols="50"
+
+          tabindex="5"
+          onkeyup=""
+          placeholder="Hi Danja …"
+                required  >
+        </textarea>
+
       </div>
-    </div>
-    <label for="exampleMessage">Message</label>
-    <textarea class="u-full-width" placeholder="Hi Danja …" id="exampleMessage"></textarea>
-    <label class="example-send-yourself-copy">
-      <input type="checkbox">
-      <span class="label-body">Send a copy to yourself</span>
-    </label>
-    <input class="button-primary" type="submit" value="Submit">
+    </li>
+    <li class="buttons">
+      <div>
+
+        <input id="saveForm" name="saveForm" class="button-primary" type="submit"  src="" alt="Submit"/>
+      </div>
+    </li>
+
+    <li class="hide">
+      <label for="comment">Do Not Fill This Out
+      </label>
+      <textarea name="comment" id="comment" rows="1" cols="1">
+      </textarea>
+      <input type="hidden" id="idstamp" name="idstamp" value="iTr/D8cUcYwxCGsS+GGJaVWqPMPziTDo/XbybwiwK9g=" />
+    </li>
+  </ul>
   </form>
+
   </div>
 
   <footer>

@@ -131,6 +131,10 @@ li a:hover {
   padding: 0 .75em 3em .75em;
 }
 
+.hide {
+    display: none !important
+}
+
 /****ABOVE***/
 
 footer {
