@@ -27,7 +27,7 @@
 
   <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="wufoo/scripts/wufoo.js"></script>
+  <script src="scripts/wufoo.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -98,22 +98,23 @@
                         <div class="row portfolio-grid">
                             <div class="col-xs">
                                 <div class="box third">
-                                   <img src="images/coming-soon.jpg" alt="Smiley face" class="img-grid">
+                                  <a href="lolcatclock/index.html"><img id="lolcatclock" src="images/javascript.jpg" alt="Lol Cat Clock" class="img-grid"></a>
+                                   <img id="lolcatclock" src="images/javascript.jpg" alt="Lol Cat Clock" class="img-grid">
                                 </div>
                             </div>
                             <div class="col-xs">
                                 <div class="box third">
-                                  <img src="images/coming-soon.jpg" alt="Smiley face" class="img-grid" >
+                                  <img src="images/coming-soon.jpg" alt="Coming Soon" class="img-grid" >
                                 </div>
                             </div>
                             <div class="col-xs">
                                 <div class="box third">
-                                  <img src="images/coming-soon.jpg" alt="Smiley face" class="img-grid">
+                                  <img src="images/coming-soon.jpg" alt="Coming Soon" class="img-grid">
                                 </div>
                             </div>
                             <div class="col-xs">
                                 <div class="box third">
-                                  <img src="images/coming-soon.jpg" alt="Smiley face" class="img-grid" >
+                                  <img src="images/coming-soon.jpg" alt="Coming Soon" class="img-grid" >
                                 </div>
                             </div>
                         </div>
@@ -161,58 +162,66 @@
     <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
           action="https://danja.wufoo.com/forms/z1gt9al513msxle/#public">
       <div class="row">
-        <div class="three columns">
+        <div id="foli6" class="notranslate five columns">
           <label class="desc" id="title6" for="Field6">
-          Name
+            Name
             <span id="req_6" class="req">*</span>
           </label>
           <span>
-            <input id="Field6" name="Field6" type="text" class="u-full-width" value="" size="8" tabindex="1" placeholder="First"       required />
-          </span>
-          <span>
-            <input id="Field7" name="Field7" type="text" class="u-full-width" value="" size="14" tabindex="2" placeholder="Last Name" required />
+            <input id="Field6" name="Field6" type="text" class="field text fn u-full-width" value="" size="8" tabindex="1" placeholder="First Name"       required />
           </span>
         </div>
-        <div class="six columns">
-          <label for="Field1">
+        <div class="five columns">
+          <label class="desc" id="title6" for="Field6">
+
+            <span id="req_6" class="req">*</span>
+          </label>
+          <span>
+            <input id="Field7" name="Field7" type="text" class="field text ln u-full-width" value="" size="14" tabindex="2" placeholder="Last Name" required />
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div id="foli1" class="notranslate five columns">
+          <label id="title1" for="Field1">
             Email
             <span id="req_1" class="req">*</span>
           </label>
-          <input id="Field1" name="Field1" type="email" spellcheck="false" class="u-full-width" value="" maxlength="255" tabindex="3"       placeholder="your-email@mailbox.com" required />
+          <input id="Field1" name="Field1" type="email" spellcheck="false" class="field text medium u-full-width" value="" maxlength="255" tabindex="3"       placeholder="your-email@mailbox.com" required />
         </div>
-        <div class="six columns">
-          <label for="Field5">
+        <div id="foli5" class="notranslate five columns">
+          <label class="desc" id="title5" for="Field5">
           Subject
             <span id="req_5" class="req">*</span>
           </label>
-          <input id="Field5" name="Field5" type="text" class="u-full-width" value="" maxlength="255" tabindex="4" onkeyup=""  required placeholder="Subject" />
+          <input id="Field5" name="Field5" type="text" class="field text medium u-full-width" value="" maxlength="255" tabindex="4" onkeyup=""  required placeholder="Subject" />
         </div>
       </div>
-      <label class="desc" id="title4" for="Field4">
-        Message
-        <span id="req_4" class="req">*</span>
-      </label>
-      <div>
-        <textarea id="Field4"
-          name="Field4"
-          class="field textarea medium u-full-width"
-          spellcheck="true"
-          rows="10" cols="50"
+      <div class="row">
+        <div id="foli4" class="ten columns">
+          <label class="desc" id="title4" for="Field4">
+            Message
+            <span id="req_4" class="req">*</span>
+          </label>
+          <textarea id="Field4"
+            name="Field4"
+            class="field textarea medium u-full-width"
+            spellcheck="true"
+            rows="10" cols="50"
+            tabindex="5"
+            onkeyup=""
+            placeholder="Hi Danja …"
+            required  >
+          </textarea>
 
-          tabindex="5"
-          onkeyup=""
-          placeholder="Hi Danja …"
-                required  >
-        </textarea>
-
+        </div>
       </div>
-    </li>
-    <li class="buttons">
-      <div>
+    <div class="row">
+      <div class="buttons ten columns">
 
-        <input id="saveForm" name="saveForm" class="button-primary" type="submit"  src="" alt="Submit"/>
+        <input id="saveForm" name="saveForm" class="btImg submit button-primary" type="submit"  src="" alt="Submit"/>
       </div>
-    </li>
+    </div>
 
     <li class="hide">
       <label for="comment">Do Not Fill This Out
